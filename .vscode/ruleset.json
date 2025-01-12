@@ -1,0 +1,10 @@
+{
+    "Name": "Hide the below warnings",
+    "rules": [
+        {
+            "id": "AA0194",
+            "action": "Hidden",
+            "justification": "Remember to specify either the 'OnAction' trigger or 'RunObject' property on an action"
+        }
+    ]
+}

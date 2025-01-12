@@ -1,0 +1,32 @@
+{
+  "id": "0694234a-c94e-4481-b030-00cdf40bcdce",
+  "name": "DistinctValueCount",
+  "publisher": "Keith How",
+  "version": "1.0.0.0",
+  "brief": "Distinct Value Count",
+  "description": "Distinct Value Count",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 55000,
+      "to": 55049
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
