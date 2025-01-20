@@ -1,3 +1,7 @@
+//Add new field to Sales Invoice Line table
+namespace KNHIntegrationCount;
+using Microsoft.Sales.History;
+
 tableextension 55000 "KNH Sales Invoice Line" extends "Sales Invoice Line"
 {
     fields
@@ -5,7 +9,8 @@ tableextension 55000 "KNH Sales Invoice Line" extends "Sales Invoice Line"
         field(55000; "Integration Code"; Text[20])
         {
             DataClassification = ToBeClassified;
-            Caption = 'integration code';
+            Caption = 'Integration Code';
+            ToolTip = 'Integration Code';
         }
     }
 }

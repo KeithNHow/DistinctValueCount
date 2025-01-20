@@ -1,3 +1,7 @@
+//Run sales invoice line query to get the distinct integration codes with count 
+namespace KNHIntegrationCount;
+using Microsoft.Sales.History;
+
 query 55000 "KNH Distinct Integration Codes"
 {
     UsageCategory = Tasks;

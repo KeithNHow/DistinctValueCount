@@ -1,3 +1,6 @@
+//Prompt Dialog Test
+namespace KNHIntegrationCount;
+
 page 55000 "KNH Prompt Dialog Test"
 {
     PageType = PromptDialog;
@@ -10,7 +13,7 @@ page 55000 "KNH Prompt Dialog Test"
     {
         area(Prompt)
         {
-            field(Question; Question)
+            field(Question; this.Question)
             {
                 ApplicationArea = All;
                 ShowCaption = false;
@@ -19,11 +22,11 @@ page 55000 "KNH Prompt Dialog Test"
         }
         area(PromptOptions)
         {
-            
+
         }
         area(Content)
         {
-            
+
         }
     }
 
@@ -36,7 +39,7 @@ page 55000 "KNH Prompt Dialog Test"
                 ToolTip = 'Answer Question';
                 trigger OnAction()
                 begin
-                    Result := 'Good try but nothing found';
+                    this.Result := 'Good try but nothing found';
                 end;
             }
         }
@@ -45,5 +48,4 @@ page 55000 "KNH Prompt Dialog Test"
     var
         Question: Text[250];
         Result: Text[250];
-
 }
