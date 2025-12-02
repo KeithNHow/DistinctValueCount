@@ -12,7 +12,7 @@ query 55000 "KNH Distinct Integration Codes"
     {
         dataitem(SalesInvoiceLine; "Sales Invoice Line")
         {
-            column(IntegrationCode; "Integration Code")
+            column(IntegrationCode; "KNH Integration Code")
             {
                 Caption = 'Integration Code';
             }
