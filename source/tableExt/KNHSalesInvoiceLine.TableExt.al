@@ -8,8 +8,8 @@ tableextension 55000 "KNH Sales Invoice Line" extends "Sales Invoice Line"
     {
         field(55000; "KNH Integration Code"; Text[20])
         {
-            DataClassification = ToBeClassified;
-            AllowInCustomizations = ToBeClassified;
+            DataClassification = EndUserIdentifiableInformation;
+            AllowInCustomizations = AsReadOnly;
             Caption = 'Integration Code';
             ToolTip = 'Integration Code';
         }
