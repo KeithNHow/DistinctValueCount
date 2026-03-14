@@ -1,5 +1,4 @@
-//this codeunit is used to get the distinct integration codes with their count 
-//from the KNH Distinct Integration Codes query.
+//this codeunit is used to get the distinct integration codes with their count from the KNH Distinct Integration Codes query.
 namespace KNHIntegrationCount;
 
 codeunit 55000 "KNH Integration Code Handler"

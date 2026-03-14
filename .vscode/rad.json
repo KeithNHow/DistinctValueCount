@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[{"Id":55000,"Kind":26,"Name":"DistinctValueCount","Namespace":""},{"Id":55000,"Kind":17,"Name":"KNH Sales Invoice Line","Namespace":"KNHIntegrationCount"}],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":55000,"Kind":26,"Name":"DistinctValueCount","Namespace":""},{"Id":55000,"Kind":16,"Name":"KNHCustomer","Namespace":""},{"Id":55000,"Kind":17,"Name":"KNH Sales Invoice Line","Namespace":"KNHIntegrationCount"},{"Id":55000,"Kind":11,"Name":"KNH Integration Code Handler","Namespace":"KNHIntegrationCount"}],"Removed":[]}
